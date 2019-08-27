@@ -32,5 +32,5 @@ fn main() {
     assert_eq!(unique_char_map("aabcd".to_string()), false);
     assert_eq!(unique_char_vec("abcd".to_string()), true);
     assert_eq!(unique_char_vec("aabcd".to_string()), false);
-     assert_eq!(unique_char_vec("aAbcd".to_string()), true);
+    assert_eq!(unique_char_vec("aAbcd".to_string()), true);
 }

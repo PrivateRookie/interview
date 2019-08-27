@@ -26,6 +26,20 @@ func uniqueCharMap(s string) bool {
 	return unique
 }
 
+func uniqueCharVec(s string) bool {
+	var charVec [128]int
+	unique := true
+	for i := 0; i < len(s); i++ {
+		ch := int(s[i])
+		charVec[ch]++
+		if charVec[ch] > 1 {
+			unique = false
+			break
+		}
+	}
+	return unique
+}
+
 func main() {
 	if uniqueCharMap("abdd") != false {
 		os.Exit(1)
@@ -33,6 +47,16 @@ func main() {
 		fmt.Println("Ok")
 	}
 	if uniqueCharMap("abcd") != true {
+		os.Exit(1)
+	} else {
+		fmt.Println("Ok")
+	}
+	if uniqueCharVec("abdd") != false {
+		os.Exit(1)
+	} else {
+		fmt.Println("Ok")
+	}
+	if uniqueCharVec("abcd") != true {
 		os.Exit(1)
 	} else {
 		fmt.Println("Ok")
