@@ -1,6 +1,9 @@
 # Code Interview
 
-this repo contains codes impl questions in book CRACKING THE CODING INTERVIEW in Python, Rust and Go
+this repo contains codes impl questions in book CRACKING THE CODING INTERVIEW in Python, Rust and ~~Go~~
+
+Go is suck let's forget it!
+
 question description is in every question's README.md
 
 if you want to run Python for a question, make sure that you have Python 3.6+
@@ -13,13 +16,7 @@ python3 -m unittest main
 for Rust code, simple run
 
 ```bash
-cargo run --bin chap01-01
-```
-
-for Go
-
-```bash
-go run chapter01/01/main.go
+cargo test c1_q1
 ```
 
 PR is welcome!
