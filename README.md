@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Code Interview
 
-You can use the [editor on GitHub](https://github.com/PrivateRookie/interview/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+this repo contains codes impl questions in book CRACKING THE CODING INTERVIEW in Python, Rust and Go
+question description is in every question's README.md
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+if you want to run Python for a question, make sure that you have Python 3.6+
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+cd chapter01/01/
+python3 -m unittest main
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+for Rust code, simple run
 
-### Jekyll Themes
+```bash
+cargo run --bin chap01-01
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PrivateRookie/interview/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+for Go
 
-### Support or Contact
+```bash
+go run chapter01/01/main.go
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+PR is welcome!
