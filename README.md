@@ -25,4 +25,4 @@ PR is welcome!
 
 ## completed chapters
 
-- [x] [Chapter01 - Arrays and Strings](src\chapter01)
+- [x] [Chapter01 - Arrays and Strings](https://github.com/PrivateRookie/interview/tree/master/src/chapter01)
